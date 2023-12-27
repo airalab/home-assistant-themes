@@ -156,7 +156,7 @@ Robonomics:
   mdc-select-dropdown-icon-color: var(--subtext5)
   mdc-select-hover-line-color: var(--overlay0)
   mdc-theme-text-icon-on-background: var(--subtext3)
-  mdc-theme-text-primary-on-background: var(--subtext3) 
+  mdc-theme-text-primary-on-background: var(--accent) 
   mdc-theme-text-secondary-on-background: var(--subtext5)
   mdc-checkbox-unchecked-color: var(--subtext3) 
   mdc-theme-secondary: var(--secondary)
