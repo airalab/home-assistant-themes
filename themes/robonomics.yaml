@@ -1,0 +1,206 @@
+####################### ROBONOMICS ######################
+Robonomics:
+  # Colors
+  text: "#ffffff"
+
+  subtext1: "#7d7a73" 
+  subtext2: "#d4d0cf" 
+  subtext3: "#000000"
+  subtext4: "#b2b2b2" 
+  subtext5: "#4d4d4d" 
+
+  surface5: "#1f258f" 
+  surface4: "#bfbfbf" 
+  surface3: "#bab5b4"
+  surface2: "#2949d3" 
+  surface1: "#1F258F" 
+  surface0: "#ffffff" 
+
+  overlay0: "#f7e9df" 
+  overlay1: "#9e9895" 
+
+  base: "#f2f2f2" 
+  accent: "#5fce05"
+  secondary: "#1d82f5"
+
+
+  # colors 
+  rosewater: "#f2d5cf"
+  flamingo: "#eebebe"
+  pink: "#f4b8e4"
+  mauve: "#ca9ee6"
+  red: "#ee005b"
+  maroon: "#ea999c"
+  peach: "#ef9f76"
+  yellow: "#f2da65" 
+  green: "#5fce05" 
+  lightGreen: "#b3e58a"
+  teal: "#175973"
+  sea: "#0b7b84" 
+  sapphire: "#85c1dc"
+  blue: "#4a8fd3"
+  darkBlue: "#151569"
+  lavender: "#babbf1"
+  beige: "#a19d9c"
+
+  ###########################
+  
+    
+  lovelace-background: 'center / 400px 160px repeat url("/local/backgrounds/robonomicstheme_pattern.svg") fixed'  # works only with hacs 
+
+
+  # Header
+  app-header-background-color: var(--surface1)
+  app-header-text-color: var(--text)
+  app-header-edit-background-color: var(--darkBlue)
+  
+
+  # Main Interface colors
+  primary-color: var(--accent)
+  light-primary-color: var(--accent)
+  accent-color: var(--accent) 
+  disabled-text-color: var(--subtext4)
+
+  primary-background-color: var(--base)
+  secondary-background-color: var(--base)
+
+  # Text
+  primary-text-color: var(--subtext3)
+  secondary-text-color: var(--subtext1)
+
+  # Sidebar
+  sidebar-background-color: var(--surface2)
+  sidebar-selected-background-color: var(--text)
+  sidebar-menu-button-text-color: var(--text)
+
+  sidebar-icon-color: var(--text)
+  sidebar-text-color: var(--text)
+  sidebar-selected-icon-color: var(--text)
+  sidebar-selected-text-color: var(--text)
+  divider-color: var(--surface5)
+
+  # Buttons
+  paper-item-icon-color: var(--secondary)
+  paper-item-icon-active-color: var(--lightGreen)
+  mdc-theme-primary: var(--accent) 
+  mdc-theme-on-primary: var(--text)
+  mdc-theme-text-disabled-on-light: var(--subtext3);
+
+
+  # States and Badges
+  state-icon-color: var(--secondary)
+  state-icon-active-color: var(--accent)
+
+  state-icon-unavailable-color: var(--base)
+
+  # Sliders
+  paper-slider-knob-color: var(--accent)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--lightGreen)
+
+  # Labels
+  label-badge-background-color: var(--surface0)
+  label-badge-text-color: var(--text)
+  label-badge-red: var(--red)
+  label-badge-green: var(--green)
+  label-badge-blue: var(--blue)
+  label-badge-yellow: var(--yellow)
+  label-badge-gray: var(--overlay0)
+
+  # Cards
+  card-background-color: var(--text)
+  ha-card-background: var(--card-background-color)
+  ha-card-border-color: var(--surface4)
+  ha-card-border-radius: "15px"
+  ha-card-box-shadow: "none"
+  ha-chip-background-color: var(--subtext3)
+  paper-dialog-color: var(--secondary-text-color)
+  paper-dialog-background-color: var(--overlay0)
+  paper-card-background-color: var(--card-background-color)
+  
+
+  # Switches
+  switch-checked-button-color: var(--accent)
+  switch-checked-track-color: var(--lightGreen)
+  switch-unchecked-button-color: var(--base)
+  switch-unchecked-track-color: "#b2b2b2"
+
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+ 
+
+  # Table
+  table-row-background-color: var(--base)
+  data-table-background-color: var(--base)
+  mdc-ripple-color: var(--text)
+
+  # Dropdowns
+  material-background-color: var(--text)
+  material-secondary-background-color: var(--text)
+
+  # Pre/Code
+  markdown-code-background-color: var(--surface3)
+  link-text-color: var(--secondary)
+
+  # Checkboxes
+  mdc-checkbox-checked-color: var(--accent)
+  mdc-select-fill-color: var(--base)
+  mdc-select-ink-color: var(--subtext3)
+  mdc-select-label-ink-color: var(--subtext1)
+  mdc-select-idle-line-color: var(--text)
+  mdc-select-dropdown-icon-color: var(--subtext5)
+  mdc-select-hover-line-color: var(--overlay0)
+  mdc-theme-text-icon-on-background: var(--subtext3)
+  mdc-theme-text-primary-on-background: var(--subtext3) 
+  mdc-theme-text-secondary-on-background: var(--subtext5)
+  mdc-checkbox-unchecked-color: var(--subtext3) 
+  mdc-theme-secondary: var(--secondary)
+  mdc-dialog-content-ink-color: var(--subtext3)
+  mdc-ripple-hover-opacity: 0.2
+  mdc-icon-button-icon-color: var(--red)
+  
+
+  # Input
+  input-fill-color: var(--base)
+  input-dropdown-icon-color: var(--subtext1)
+  input-ink-color: var(--text)
+  input-label-ink-color: var(--subtext5)
+  input-idle-line-color: var(--text)
+  input-hover-line-color: var(--overlay0)
+  mdc-text-field-ink-color: var(--subtext3) 
+  mdc-text-field-fill-color: var(--text) !important 
+    
+
+  # Toast
+  paper-toast-background-color: var(--darkBlue)
+  paper-toast-color: var(--text)
+
+  # Colors
+  error-color: var(--red)
+  warning-color: var(--yellow)
+  success-color: var(--green)
+
+  # states
+  state-on-color: var(--green)
+  state-off-color: var(--red)  
+  state-climate-auto-color: var(--accent)
+  state-climate-heat-color: var(--red) 
+  state-climate-cool-color: var(--blue)
+  state-climate-inactive-color: var(--darkBlue)
+  state-sun-above_horizon-color: "#fbbd3c"
+  state-sun-below_horizon-color: "#bae1ff"
+  
+  # additional things
+  hacs-new-color: var(--accent)
+  hcv-color-markdown-background: "#ebebeb"
+  hcv-text-color-on-background: var(--fff)
+  info-color: var(--accent)
+  hacs--default-icon-color: var(--subtext3)
+  ha-chip-text-color: var(--text)
+  control-circular-slider-background: var(--subtext4)
+  control-circular-slider-color: var(--accent)

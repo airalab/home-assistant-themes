@@ -1,0 +1,211 @@
+####################### Neon Theme ######################
+
+NeonTheme:
+  # Colors
+  text: "#ffffff"
+  accent: "#5fce05"
+
+  subtext1: "#4d4d4d" 
+  subtext2: "#d4ff33" 
+  subtext3: "#000000" 
+  subtext4: "#b2b2b2" 
+  subtext5: "#655ce5" 
+
+  surface5: "#2949d3" 
+  surface4: "#bfbfbf" 
+  surface3: "#000000"
+  surface2: "#ff3dba" 
+  surface1: "#2949d3" 
+  surface0: var(--text) 
+
+  overlay0:  var(--subtext2) 
+  overlay1:  var(--subtext5)  
+
+  base: "#e1e1e8"
+  secondary: "#ff3dba"
+
+
+  # colors 
+  rosewater: "#f2d5cf"
+  flamingo: "#eebebe"
+  pink: "#f4b8e4"
+  mauve: "#ca9ee6"
+  red: "#ee005b"
+  maroon: "#ea999c"
+  peach: "#ef9f76"
+  yellow: "#f2da65" 
+  green: "#5fce05" 
+  lightGreen: "#b3e58a"
+  teal: "#175973"
+  sea: "#0b7b84" 
+  sapphire: "#85c1dc"
+  blue: "#2949d3"
+  darkBlue: "#0031b4"
+  lavender: "#babbf1"
+  beige: "#a19d9c"
+
+  ###########################
+  
+  lovelace-background: 'center / 40% repeat url("/local/backgrounds/neon_theme_bg.svg") fixed' # works only with hacs 
+
+
+  # Header
+  app-header-background-color: var(--surface1)
+  app-header-text-color: var(--text)
+  app-header-edit-background-color: var(--darkBlue) 
+  
+
+  # Main Interface colors
+  primary-color: var(--accent)
+  light-primary-color: var(--accent)
+  accent-color: var(--accent) 
+  disabled-text-color: var(--subtext4)
+  text-accent-color: var(--text)
+  primary-background-color: var(--base)
+  secondary-background-color: var(--base)
+
+  # Text
+  primary-text-color: var(--subtext3)
+  secondary-text-color: var(--subtext4)
+
+  # Sidebar
+  sidebar-background-color: var(--surface2)
+  sidebar-selected-background-color: var(--subtext2)
+  sidebar-menu-button-text-color: var(--text)
+
+  sidebar-icon-color: var(--text)
+  sidebar-text-color: var(--text)
+  sidebar-selected-icon-color: var(--subtext2)
+  sidebar-selected-text-color: var(--subtext2)
+  divider-color: var(--surface5)
+  
+
+  # Buttons
+  paper-item-icon-color: var(--subtext5)
+  paper-item-icon-active-color: var(--subtext5)
+  mdc-theme-primary: var(--accent) 
+  mdc-theme-on-primary: var(--text)
+  mdc-theme-text-disabled-on-light: var(--subtext3);
+  mdc-button-outline-color: var(--subtext4)
+
+
+  # States and Badges
+  state-icon-color: var(--accent)
+  state-icon-active-color: var(--secondary)
+
+  state-icon-unavailable-color: var(--subtext1)
+
+  # Sliders
+  paper-slider-knob-color: var(--secondary)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: "#d8d4d3"
+
+  # Labels
+  label-badge-background-color: var(--surface0)
+  label-badge-text-color: var(--text)
+  label-badge-red: var(--red)
+  label-badge-green: var(--green)
+  label-badge-blue: var(--blue)
+  label-badge-yellow: var(--yellow)
+  label-badge-gray: var(--overlay0)
+
+  # Cards
+  card-background-color: var(--surface0)
+  ha-card-background: var(--card-background-color)
+  ha-card-border-color: "transparent"
+  ha-card-border-radius: "10px"
+  ha-card-box-shadow: "none"
+  ha-chip-background-color: var(--subtext5)
+  paper-dialog-color: var(--subtext3)
+  paper-dialog-background-color: var(--overlay0)
+  paper-card-background-color: var(--card-background-color)
+  
+
+  # Switches
+  switch-checked-button-color: var(--green)
+  switch-checked-track-color: "#b3e58a"
+  switch-unchecked-button-color: "e5e5e5"
+  switch-unchecked-track-color:  var(--subtext4)
+
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+ 
+
+  # Table
+  table-row-background-color: var(--base)
+  data-table-background-color: var(--base)
+  mdc-ripple-color: var(--text)
+
+  # Dropdowns
+  material-background-color: "#e5e5e5"
+  material-secondary-background-color: "#e5e5e5"
+
+  # Pre/Code
+  markdown-code-background-color: var(--text)
+  link-text-color: var(--subtext3)
+  code-editor-background-color: var(--text)
+
+  # Checkboxes
+  mdc-checkbox-checked-color: var(--accent)
+  mdc-select-fill-color: "#e5e5e5"
+  mdc-select-ink-color: var(--subtext3)
+  mdc-select-label-ink-color: var(--subtext4)
+  mdc-select-idle-line-color: var(--subtext4)
+  mdc-select-dropdown-icon-color: var(--subtext1)
+  mdc-select-hover-line-color: var(--overlay0)
+  mdc-theme-text-icon-on-background: var(--subtext1)
+  mdc-theme-text-primary-on-background: var(--subtext3)
+  mdc-theme-text-secondary-on-background: var(--subtext3)
+  mdc-checkbox-unchecked-color: var(--secondary) 
+  mdc-theme-secondary: var(--secondary)
+  mdc-theme-on-secondary: var(--text)
+  mdc-dialog-content-ink-color: var(--subtext3)
+  mdc-ripple-hover-opacity: 0.2
+  mdc-icon-button-icon-color: var(--red)
+  
+
+  # Input
+  input-fill-color: "#e5e5e5"
+  input-dropdown-icon-color: var(--subtext1)
+  input-ink-color: var(--subtext3)
+  input-label-ink-color: var(--subtext1)
+  input-idle-line-color: var(--subtext3)
+  input-hover-line-color: var(--overlay0)
+  mdc-text-field-ink-color: var(--subtext3) 
+  mdc-text-field-fill-color: "#e5e5e5" 
+    
+
+  # Toast
+  paper-toast-background-color: var(--subtext5)
+  paper-toast-color: var(--text)
+
+  # Colors
+  error-color: var(--red)
+  warning-color: var(--yellow)
+  success-color: var(--green)
+
+  # states
+  state-on-color: var(--green)
+  state-off-color: var(--red)  
+  state-climate-auto-color: var(--subtext5)
+  state-climate-heat-color: var(--secondary) 
+  state-climate-cool-color: var(--green)
+  state-climate-inactive-color: var(--blue)
+  state-sun-above_horizon-color: "#fbbd3c"
+  state-sun-below_horizon-color: "#bae1ff"
+  
+  # additional things
+  hacs-new-color: var(--accent)
+  hcv-color-markdown-background: "#fff"
+  hcv-text-color-on-background: var(--text) 
+  hcv-text-color-link: var(--text) 
+  info-color: var(--accent)
+  hacs--default-icon-color: var(--text)
+  ha-chip-text-color: var(--text)
+  control-circular-slider-background: var(--subtext4)
+  control-circular-slider-color: var(--secondary)

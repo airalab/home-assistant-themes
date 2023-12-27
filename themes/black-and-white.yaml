@@ -1,0 +1,201 @@
+####################### Black & Wite ######################
+
+Black&White:
+  # Colors
+  text: "#ffffff"
+  accent: "#2949d3"
+
+  subtext1: "#4d4d4d" 
+  subtext2: var(--accent) 
+  subtext3: "#000000" 
+  subtext4: "#b2b2b2" 
+
+  surface4: "#bfbfbf" 
+  surface3: "#000000"
+  surface0: "#ffffff" 
+
+  overlay0:  var(--accent) 
+  overlay1: "#9e9895"
+
+  base: "#d9d9d9"
+  secondary: "#84A2F0"
+
+
+  # colors 
+  rosewater: "#f2d5cf"
+  flamingo: "#eebebe"
+  pink: "#f4b8e4"
+  mauve: "#ca9ee6"
+  red: "#ee005b"
+  maroon: "#ea999c"
+  peach: "#ef9f76"
+  yellow: "#f2da65" 
+  green: "#5fce05" 
+  lightGreen: "#b3e58a"
+  teal: "#175973"
+  sea: "#0b7b84" 
+  sapphire: "#85c1dc"
+  blue: "#2949d3"
+  darkBlue: "#151569"
+  lavender: "#babbf1"
+  beige: "#a19d9c"
+
+  ###########################
+  
+
+  # Header
+  app-header-background-color: var(--surface3)
+  app-header-text-color: var(--text)
+  app-header-edit-background-color: var(--surface3)
+  
+
+  # Main Interface colors
+  primary-color: var(--accent)
+  light-primary-color: var(--accent)
+  accent-color: var(--accent) 
+  disabled-text-color: var(--subtext4)
+
+  primary-background-color: var(--base)
+  secondary-background-color: var(--base)
+
+  # Text
+  primary-text-color: var(--subtext3)
+  secondary-text-color: var(--subtext1)
+
+  # Sidebar
+  sidebar-background-color: var(--surface0)
+  sidebar-selected-background-color: var(--subtext2)
+  sidebar-menu-button-text-color: var(--subtext3)
+
+  sidebar-icon-color: var(--subtext3)
+  sidebar-text-color: var(--subtext3)
+  sidebar-selected-icon-color: var(--subtext2)
+  sidebar-selected-text-color: var(--subtext2)
+  divider-color: var(--surface3)
+
+  # Buttons
+  paper-item-icon-color: var(--subtext3)
+  paper-item-icon-active-color: var(--accent)
+  mdc-theme-primary: var(--accent) 
+  mdc-theme-on-primary: var(--text)
+  mdc-theme-text-disabled-on-light: var(--subtext3);
+
+
+  # States and Badges
+  state-icon-color: var(--surface3)
+  state-icon-active-color: var(--accent)
+
+  state-icon-unavailable-color: var(--base)
+
+  # Sliders
+  paper-slider-knob-color: var(--accent)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--subtext3)
+
+  # Labels
+  label-badge-background-color: var(--surface0)
+  label-badge-text-color: var(--text)
+  label-badge-red: var(--red)
+  label-badge-green: var(--green)
+  label-badge-blue: var(--blue)
+  label-badge-yellow: var(--yellow)
+  label-badge-gray: var(--overlay0)
+
+  # Cards
+  card-background-color: var(--text)
+  ha-card-background: var(--card-background-color)
+  ha-card-border-color: var(--surface3)
+  ha-card-border-radius: "none"
+  ha-card-box-shadow: "4px 4px 0 #000"
+  ha-chip-background-color: var(--subtext3)
+  paper-dialog-color: var(--secondary-text-color)
+  paper-dialog-background-color: var(--overlay0)
+  paper-card-background-color: var(--card-background-color)
+  
+
+  # Switches
+  switch-checked-button-color: var(--accent)
+  switch-checked-track-color: var(--secondary)
+  switch-unchecked-button-color: var(--surface3)
+  switch-unchecked-track-color: var(--base)
+
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+ 
+
+  # Table
+  table-row-background-color: var(--base)
+  data-table-background-color: var(--base)
+  mdc-ripple-color: var(--text)
+
+  # Dropdowns
+  material-background-color: var(--text)
+  material-secondary-background-color: var(--text)
+
+  # Pre/Code
+  markdown-code-background-color: var(--text)
+  link-text-color: var(--accent)
+  code-editor-background-color: var(--text)
+
+  # Checkboxes
+  mdc-checkbox-checked-color: var(--accent)
+  mdc-select-fill-color: var(--base)
+  mdc-select-ink-color: var(--subtext3)
+  mdc-select-label-ink-color: var(--subtext1)
+  mdc-select-idle-line-color: var(--text)
+  mdc-select-dropdown-icon-color: var(--subtext3)
+  mdc-select-hover-line-color: var(--overlay0)
+  mdc-theme-text-icon-on-background: var(--subtext3)
+  mdc-theme-text-primary-on-background: var(--subtext3)
+  mdc-theme-text-secondary-on-background: var(--subtext1)
+  mdc-checkbox-unchecked-color: var(--subtext3) 
+  mdc-theme-secondary: var(--text)
+  mdc-dialog-content-ink-color: var(--subtext3)
+  mdc-ripple-hover-opacity: 0.2
+  mdc-icon-button-icon-color: var(--red)
+  
+
+  # Input
+  input-fill-color: var(--text)
+  input-dropdown-icon-color: var(--subtext1)
+  input-ink-color: var(--text)
+  input-label-ink-color: var(--subtext1)
+  input-idle-line-color: var(--text)
+  input-hover-line-color: var(--overlay0)
+  mdc-text-field-ink-color: var(--subtext3) 
+  mdc-text-field-fill-color: var(--text) 
+    
+
+  # Toast
+  paper-toast-background-color: var(--surface3)
+  paper-toast-color: var(--text)
+
+  # Colors
+  error-color: var(--red)
+  warning-color: var(--yellow)
+  success-color: var(--green)
+
+  # states
+  state-on-color: var(--green)
+  state-off-color: var(--red)  
+  state-climate-auto-color: var(--accent)
+  state-climate-heat-color: var(--red) 
+  state-climate-cool-color: var(--blue)
+  state-climate-inactive-color: var(--secondary)
+  state-sun-above_horizon-color: "#fbbd3c"
+  state-sun-below_horizon-color: "#bae1ff"
+  
+  # additional things
+  hacs-new-color: var(--accent)
+  hcv-color-markdown-background: "#ebebeb"
+  hcv-text-color-on-background: var(--text)
+  info-color: var(--accent)
+  hacs--default-icon-color: var(--subtext3)
+  ha-chip-text-color: var(--text)
+  control-circular-slider-background: var(--subtext4)
+  control-circular-slider-color: var(--accent)
