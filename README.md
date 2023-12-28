@@ -72,3 +72,11 @@ If you do not have file editor in your sidebar:
 4. Dark
 
 ![dark theme](previews/dark-theme.png)
+
+5. Neon Green
+
+![dark theme](previews/neon-green-theme.png)
+
+6. AI
+
+![dark theme](previews/ai-theme.png)

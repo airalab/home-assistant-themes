@@ -1,27 +1,27 @@
-####################### Neon Theme ######################
+####################### Neon Green Theme ######################
 
-NeonTheme:
+NeonGreenTheme:
   # Colors
   text: "#ffffff"
   accent: "#5fce05"
 
   subtext1: "#4d4d4d" 
-  subtext2: "#d4ff33" 
+  subtext2: "#d4ff33"  
   subtext3: "#000000" 
   subtext4: "#b2b2b2" 
-  subtext5: "#655ce5" 
+  subtext5: "#2d9ff6" 
 
-  surface5: "#2949d3" 
+  surface5: "#3ca37c" 
   surface4: "#bfbfbf" 
   surface3: "#000000"
-  surface2: "#ff3dba" 
-  surface1: "#2949d3" 
+  surface2: var(--accent) 
+  surface1: "#ee005b" 
   surface0: var(--text) 
 
   overlay0:  var(--subtext2) 
   overlay1:  var(--subtext5)  
 
-  base: "#e1e1e8"
+  base: "#e5e5e5"
   secondary: "#ff3dba"
 
 
@@ -46,19 +46,19 @@ NeonTheme:
 
   ###########################
   
-  lovelace-background: 'center / 40% repeat url("/local/backgrounds/neon_theme_bg.svg") fixed' # works only with hacs 
+  lovelace-background: 'center / 40% repeat url("/local/backgrounds/neon_green_theme_bg.svg") fixed' # works only with hacs 
 
 
   # Header
   app-header-background-color: var(--surface1)
   app-header-text-color: var(--text)
-  app-header-edit-background-color: var(--darkBlue) 
+  app-header-edit-background-color: var(--surface1) 
   
 
   # Main Interface colors
-  primary-color: var(--accent)
-  light-primary-color: var(--accent)
-  accent-color: var(--accent) 
+  primary-color: var(--darkBlue)
+  light-primary-color: var(--text)
+  accent-color: var(--darkBlue) 
   disabled-text-color: var(--subtext4)
   text-accent-color: var(--text)
   primary-background-color: var(--base)
@@ -66,7 +66,7 @@ NeonTheme:
 
   # Text
   primary-text-color: var(--subtext3)
-  secondary-text-color: var(--subtext4)
+  secondary-text-color: var(--subtext1)
 
   # Sidebar
   sidebar-background-color: var(--surface2)
@@ -83,7 +83,7 @@ NeonTheme:
   # Buttons
   paper-item-icon-color: var(--subtext5)
   paper-item-icon-active-color: var(--subtext5)
-  mdc-theme-primary: var(--accent) 
+  mdc-theme-primary: var(--darkBlue) 
   mdc-theme-on-primary: var(--text)
   mdc-theme-text-disabled-on-light: var(--subtext3);
   mdc-button-outline-color: var(--subtext4)
@@ -124,8 +124,8 @@ NeonTheme:
   
 
   # Switches
-  switch-checked-button-color: var(--green)
-  switch-checked-track-color: "#b3e58a"
+  switch-checked-button-color: var(--subtext5)
+  switch-checked-track-color: "#bdd3fff"
   switch-unchecked-button-color: "#e5e5e5"
   switch-unchecked-track-color:  var(--subtext4)
 
@@ -151,7 +151,7 @@ NeonTheme:
   code-editor-background-color: var(--text)
 
   # Checkboxes
-  mdc-checkbox-checked-color: var(--accent)
+  mdc-checkbox-checked-color: var(--secondary)
   mdc-select-fill-color: "#e5e5e5"
   mdc-select-ink-color: var(--subtext3)
   mdc-select-label-ink-color: var(--subtext4)
@@ -192,9 +192,9 @@ NeonTheme:
   # states
   state-on-color: var(--green)
   state-off-color: var(--red)  
-  state-climate-auto-color: var(--subtext5)
+  state-climate-auto-color: var(--green)
   state-climate-heat-color: var(--secondary) 
-  state-climate-cool-color: var(--green)
+  state-climate-cool-color: var(--subtext2)
   state-climate-inactive-color: var(--blue)
   state-sun-above_horizon-color: "#fbbd3c"
   state-sun-below_horizon-color: "#bae1ff"
