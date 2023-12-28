@@ -55,8 +55,9 @@ DarkTheme:
   # Main Interface colors
   primary-color: var(--accent)
   light-primary-color: var(--accent)
-  accent-color: var(--accent) 
+  accent-color: var(--green) 
   text-primary-color: var(--text)
+  text-accent-color: var(--subtext3)
   disabled-text-color: var(--subtext4)
 
   primary-background-color: var(--base)
