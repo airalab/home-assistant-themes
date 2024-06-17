@@ -1,47 +1,72 @@
 # Home Assistant themes
 Home Assistant themes created by Robonomics team.
 
+## Install
+
+### Using HACS
+
+1. Navigate to the HACS panel and click on the three dots located in the upper right corner. Then, select `Custom repositories`.
+
+2. Paste the provided link into the `Repository` field, select `Theme` from the `Category` dropdown menu, and click the `ADD` button.
+```
+https://github.com/airalab/home-assistant-themes.git
+```
+3. Next, search for `robonomics Theme` in the HACS search bar. Once found, select it and hit the `Download` button.
+
+
 ### Manual
-1. Add the following code to your `configuration.yaml` file (reboot required).
+> Note: If you are using Home Assistant OS to get access to your configuration file use "File Editor" or "SSH" ADD-ONs.
+> How to install "File Editor" find at the bottom of README.
+
+1. Add the following line to your `configuration.yaml` file if it isn't added (reboot required).
 
 ```yaml
-frontend:
+  frontend:
   ... # your configuration.
-  themes: !include_dir_merge_named themes
+    themes: !include_dir_merge_named themes
   ... # your configuration.
 ```
+
+
 2. Clone the repository
 ```bash
 git clone https://github.com/airalab/home-assistant-themes.git
 ```
 
-3. Copy `themes/theme_name.yaml` in your existing (or create it) `themes/` folder.
+3. Copy `themes/<THEME_NAME>.yaml` in your existing (or create it) `themes/` folder.
 
 ```bash
-mv home-assistant-themes/themes/theme_name.yaml <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>/themes/.
+cp home-assistant-themes/themes/<THEME_NAME>.yaml <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>/themes/.
 ```
 
-> Note: If you are using Home Assistant Supervised (e.g for macos) you need to add theme to /themes/ in file editor add-on. 
+To copy all themes use next:
 
+```shell
+cp home-assistant-themes/themes/* <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>/themes/.
+```
 
-### Backgrounds
+## Backgrounds
 
-There are also backgrounds for some themes in the `backgrounds` folder. In order to use them you need to have [hacs](https://hacs.xyz/) installed.
+There are also backgrounds for some themes in the `backgrounds` folder. To install them, first you have to create `www` folder in your homeassistant 
+configuration directory. And create `backgrounds` folder in it:
 
-Copy the folder to your Home Assistant folder for the backgrounds to appear in your dashboard.
+```shell
+mkdir -p <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>/www/backgrounds
+```
+
+Copy the folder with backgrounds to your Home Assistant `www` folder for the backgrounds to appear in your dashboard.
 
 ```bash
-mv home-assistant-themes/backgrounds/ <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>home-assistant-themes/backgrounds/.
+mv home-assistant-themes/backgrounds/* <PATH_TO_YOUR_HOME_ASSISTANT_FOLDER>/www/backgrounds/
 ```
 
-> Note: If you are using Home Assistant Supervised (e.g for macos) you need to add background folder to www/community/ in file editor add-on.
-> Then, you need to manually change path to the image in theme_name.yaml file - e.g. "/hacsfiles/backgrounds/robonomicstheme_pattern.svg"
-
-### Use Theme
-Finally, you can choose theme in `profile` in `theme` section. More [here](https://www.home-assistant.io/integrations/frontend/#manual-theme-selection)
+## Use Theme
+Finally, you can choose theme in `profile` in `theme` section. More [here](https://www.home-assistant.io/integrations/frontend/#manual-theme-selection).
 
 
-### File Editor ADD-ON
+
+
+### File Editor ADD-ON Installation
 
 If you do not have file editor in your sidebar: 
 
